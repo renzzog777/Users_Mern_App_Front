@@ -19,7 +19,8 @@ function EditarUsuarios(){
 
 
     useEffect(()=>{
-        axios.post('/api/usuario/obtenerdatausuario', {idusuario:params.idusuario}).then(res=>{
+        const idusuario = params.idusuario
+        axios.post('/api/usuario/obtenerdatausuario', {idusuario:idusuario}).then(res=>{
             console.log(res.data[0])
             const datausuario = res.data[0]
             setNombre (datausuario.nombre)
