@@ -36,5 +36,5 @@ jobs:
         run: docker build . --file Dockerfile -t renzzog77/frontend
 
       - name: Push to Docker Hub
-        run: docker push renzzog77/backend:latest
+        run: docker push renzzog77/frontend:latest
 #test
