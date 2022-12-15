@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://ad9295bba822e4459b754fc41793fb9e-373537330.us-west-2.elb.amazonaws.com:80/"
+  "proxy": "ad9295bba822e4459b754fc41793fb9e-373537330.us-west-2.elb.amazonaws.com:80/"
 }
